@@ -1,4 +1,4 @@
-module github.com/fraenky8/tables-to-go
+module github.com/fifarafa/tables-to-go
 
 go 1.14
 
