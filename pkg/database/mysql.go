@@ -189,5 +189,5 @@ func (mysql *MySQL) IsTemporal(column Column) bool {
 
 // GetTemporalDriverDataType returns the time data type specific for the MySQL database
 func (mysql *MySQL) GetTemporalDriverDataType() string {
-	return "mysql.NullTime"
+	return "sql.NullTime"
 }
