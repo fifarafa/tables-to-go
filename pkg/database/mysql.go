@@ -38,7 +38,8 @@ func (mysql *MySQL) DSN() string {
 
 // GetDriverImportLibrary returns the golang sql driver specific fot the MySQL database
 func (mysql *MySQL) GetDriverImportLibrary() string {
-	return `"database/sql"`
+	// redundant as we already have database/sql
+	return `""`
 }
 
 // GetTables gets all tables for a given database by name
