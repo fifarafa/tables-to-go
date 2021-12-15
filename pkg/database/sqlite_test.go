@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/fraenky8/tables-to-go/pkg/settings"
+	"github.com/fifarafa/tables-to-go/pkg/settings"
 )
 
 func TestSQLite_DSN(t *testing.T) {
