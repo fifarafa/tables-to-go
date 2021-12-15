@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/fraenky8/tables-to-go/pkg/settings"
+	"github.com/fifarafa/tables-to-go/pkg/settings"
 
 	// MySQL database driver
 	_ "github.com/go-sql-driver/mysql"
